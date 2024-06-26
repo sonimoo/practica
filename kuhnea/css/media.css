@@ -1,0 +1,79 @@
+@media(max-width: 1200px) {
+    .title__style {
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .container__kuhnea {
+        padding: 10px;
+    }
+
+    .foto__style {
+        width: 100%;
+        height: auto;
+    }
+
+    .auto__settings {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .block__block {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 768px) {
+    .intro__title {
+        font-size: 25px;
+    }
+
+    .block__auto {
+        width: 100%;
+    }
+
+    .block__block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .foto__style {
+        width: 100%;
+        height: auto;
+    }
+
+    .auto__settings {
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .intro__title {
+        font-size: 20px;
+    }
+
+    .block__title {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .block__auto {
+        width: 100%;
+    }
+
+    .block__block {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .foto__style {
+        width: 100%;
+        height: auto;
+    }
+
+    .auto__settings {
+        width: 100%;
+    }
+}

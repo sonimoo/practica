@@ -1,0 +1,53 @@
+@media(max-width: 1200px) {
+    .title__style {
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .section-mebeli {
+        height: 1000px;
+        
+    }
+
+    .block__meb {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .foto__style {
+        width: 290px;
+        height: 175px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+
+
+    .section__news {
+        height: 1800px;
+    }
+
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        .block {
+            width: 700px;
+        }
+    }
+}
